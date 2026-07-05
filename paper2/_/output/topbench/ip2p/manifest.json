@@ -1,0 +1,3248 @@
+{
+  "method": "editclip+ip2p",
+  "args": {
+    "benchmark_root": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark",
+    "ip2p_ckpt_dir": "/root/e_mmdit/flash-attention/EditCLIP/clip_ckpt/editclip_ip2p",
+    "editclip_path": "/root/e_mmdit/flash-attention/EditCLIP/clip_ckpt/editclip_vit_l_14",
+    "pretrained_sd_path": "timbrooks/instruct-pix2pix",
+    "output_dir": ".../output/topbench/ip2p",
+    "categories": null,
+    "tasks": null,
+    "k_exemplars": 3,
+    "num_replicates": 1,
+    "max_tests_per_task": null,
+    "seed": 0,
+    "resolution": 256,
+    "guidance_scale": 7.0,
+    "image_guidance_scale": 1.5,
+    "num_inference_steps": 50,
+    "use_projection": true,
+    "dtype": "fp16"
+  },
+  "samples": [
+    {
+      "category": "01",
+      "task": "boy2girl",
+      "query_id": "25",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/boy2girl/test/25_0.jpg",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/boy2girl/test/25_1.jpg",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/boy2girl/train/262_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/boy2girl/train/262_1.jpg",
+          "id": "262"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/boy2girl/train/69_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/boy2girl/train/69_1.jpg",
+          "id": "69"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/boy2girl/train/158_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/boy2girl/train/158_1.jpg",
+          "id": "158"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/01/boy2girl/25__rep0__ex-262-69-158.png"
+    },
+    {
+      "category": "01",
+      "task": "boy2girl",
+      "query_id": "404621591",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/boy2girl/test/404621591_0.jpg",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/boy2girl/test/404621591_1.jpg",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/boy2girl/train/231_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/boy2girl/train/231_1.jpg",
+          "id": "231"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/boy2girl/train/3806689277_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/boy2girl/train/3806689277_1.jpg",
+          "id": "3806689277"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/boy2girl/train/30_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/boy2girl/train/30_1.jpg",
+          "id": "30"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/01/boy2girl/404621591__rep0__ex-231-3806689277-30.png"
+    },
+    {
+      "category": "01",
+      "task": "boy2girl",
+      "query_id": "496193734",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/boy2girl/test/496193734_0.jpg",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/boy2girl/test/496193734_1.jpg",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/boy2girl/train/262_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/boy2girl/train/262_1.jpg",
+          "id": "262"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/boy2girl/train/231_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/boy2girl/train/231_1.jpg",
+          "id": "231"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/boy2girl/train/30_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/boy2girl/train/30_1.jpg",
+          "id": "30"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/01/boy2girl/496193734__rep0__ex-262-231-30.png"
+    },
+    {
+      "category": "01",
+      "task": "boy2girl",
+      "query_id": "82",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/boy2girl/test/82_0.jpg",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/boy2girl/test/82_1.jpg",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/boy2girl/train/243_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/boy2girl/train/243_1.jpg",
+          "id": "243"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/boy2girl/train/204_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/boy2girl/train/204_1.jpg",
+          "id": "204"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/boy2girl/train/173_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/boy2girl/train/173_1.jpg",
+          "id": "173"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/01/boy2girl/82__rep0__ex-243-204-173.png"
+    },
+    {
+      "category": "01",
+      "task": "boy2girl",
+      "query_id": "911286319",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/boy2girl/test/911286319_0.jpg",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/boy2girl/test/911286319_1.jpg",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/boy2girl/train/231_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/boy2girl/train/231_1.jpg",
+          "id": "231"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/boy2girl/train/173_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/boy2girl/train/173_1.jpg",
+          "id": "173"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/boy2girl/train/17_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/boy2girl/train/17_1.jpg",
+          "id": "17"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/01/boy2girl/911286319__rep0__ex-231-173-17.png"
+    },
+    {
+      "category": "01",
+      "task": "midnight",
+      "query_id": "273",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/midnight/test/273_0.jpg",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/midnight/test/273_1.jpg",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/midnight/train/63_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/midnight/train/63_1.jpg",
+          "id": "63"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/midnight/train/2457842013_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/midnight/train/2457842013_1.jpg",
+          "id": "2457842013"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/midnight/train/143_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/midnight/train/143_1.jpg",
+          "id": "143"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/01/midnight/273__rep0__ex-63-2457842013-143.png"
+    },
+    {
+      "category": "01",
+      "task": "midnight",
+      "query_id": "291",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/midnight/test/291_0.jpg",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/midnight/test/291_1.jpg",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/midnight/train/2457842013_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/midnight/train/2457842013_1.jpg",
+          "id": "2457842013"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/midnight/train/1126_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/midnight/train/1126_1.jpg",
+          "id": "1126"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/midnight/train/622_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/midnight/train/622_1.jpg",
+          "id": "622"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/01/midnight/291__rep0__ex-2457842013-1126-622.png"
+    },
+    {
+      "category": "01",
+      "task": "midnight",
+      "query_id": "335",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/midnight/test/335_0.jpg",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/midnight/test/335_1.jpg",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/midnight/train/300_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/midnight/train/300_1.jpg",
+          "id": "300"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/midnight/train/55_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/midnight/train/55_1.jpg",
+          "id": "55"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/midnight/train/1126_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/midnight/train/1126_1.jpg",
+          "id": "1126"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/01/midnight/335__rep0__ex-300-55-1126.png"
+    },
+    {
+      "category": "01",
+      "task": "midnight",
+      "query_id": "461",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/midnight/test/461_0.jpg",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/midnight/test/461_1.jpg",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/midnight/train/300_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/midnight/train/300_1.jpg",
+          "id": "300"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/midnight/train/53_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/midnight/train/53_1.jpg",
+          "id": "53"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/midnight/train/63_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/midnight/train/63_1.jpg",
+          "id": "63"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/01/midnight/461__rep0__ex-300-53-63.png"
+    },
+    {
+      "category": "01",
+      "task": "midnight",
+      "query_id": "494",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/midnight/test/494_0.jpg",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/midnight/test/494_1.jpg",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/midnight/train/63_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/midnight/train/63_1.jpg",
+          "id": "63"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/midnight/train/209_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/midnight/train/209_1.jpg",
+          "id": "209"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/midnight/train/55_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/midnight/train/55_1.jpg",
+          "id": "55"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/01/midnight/494__rep0__ex-63-209-55.png"
+    },
+    {
+      "category": "01",
+      "task": "seapainting",
+      "query_id": "210",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/seapainting/test/210_0.jpg",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/seapainting/test/210_1.jpg",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/seapainting/train/65_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/seapainting/train/65_1.jpg",
+          "id": "65"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/seapainting/train/86_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/seapainting/train/86_1.jpg",
+          "id": "86"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/seapainting/train/41_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/seapainting/train/41_1.jpg",
+          "id": "41"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/01/seapainting/210__rep0__ex-65-86-41.png"
+    },
+    {
+      "category": "01",
+      "task": "seapainting",
+      "query_id": "250",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/seapainting/test/250_0.jpg",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/seapainting/test/250_1.jpg",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/seapainting/train/134_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/seapainting/train/134_1.jpg",
+          "id": "134"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/seapainting/train/86_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/seapainting/train/86_1.jpg",
+          "id": "86"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/seapainting/train/93_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/seapainting/train/93_1.jpg",
+          "id": "93"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/01/seapainting/250__rep0__ex-134-86-93.png"
+    },
+    {
+      "category": "01",
+      "task": "seapainting",
+      "query_id": "44",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/seapainting/test/44_0.jpg",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/seapainting/test/44_1.jpg",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/seapainting/train/160_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/seapainting/train/160_1.jpg",
+          "id": "160"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/seapainting/train/62_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/seapainting/train/62_1.jpg",
+          "id": "62"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/seapainting/train/134_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/seapainting/train/134_1.jpg",
+          "id": "134"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/01/seapainting/44__rep0__ex-160-62-134.png"
+    },
+    {
+      "category": "01",
+      "task": "seapainting",
+      "query_id": "551",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/seapainting/test/551_0.jpg",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/seapainting/test/551_1.jpg",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/seapainting/train/93_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/seapainting/train/93_1.jpg",
+          "id": "93"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/seapainting/train/65_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/seapainting/train/65_1.jpg",
+          "id": "65"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/seapainting/train/606_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/seapainting/train/606_1.jpg",
+          "id": "606"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/01/seapainting/551__rep0__ex-93-65-606.png"
+    },
+    {
+      "category": "01",
+      "task": "seapainting",
+      "query_id": "773",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/seapainting/test/773_0.jpg",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/seapainting/test/773_1.jpg",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/seapainting/train/305_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/seapainting/train/305_1.jpg",
+          "id": "305"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/seapainting/train/606_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/seapainting/train/606_1.jpg",
+          "id": "606"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/seapainting/train/160_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/seapainting/train/160_1.jpg",
+          "id": "160"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/01/seapainting/773__rep0__ex-305-606-160.png"
+    },
+    {
+      "category": "01",
+      "task": "sketchstyle",
+      "query_id": "0",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/sketchstyle/test/0_0.jpg",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/sketchstyle/test/0_1.jpg",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/sketchstyle/train/34_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/sketchstyle/train/34_1.jpg",
+          "id": "34"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/sketchstyle/train/7_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/sketchstyle/train/7_1.jpg",
+          "id": "7"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/sketchstyle/train/9_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/sketchstyle/train/9_1.jpg",
+          "id": "9"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/01/sketchstyle/0__rep0__ex-34-7-9.png"
+    },
+    {
+      "category": "01",
+      "task": "sketchstyle",
+      "query_id": "1",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/sketchstyle/test/1_0.jpg",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/sketchstyle/test/1_1.jpg",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/sketchstyle/train/34_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/sketchstyle/train/34_1.jpg",
+          "id": "34"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/sketchstyle/train/287_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/sketchstyle/train/287_1.jpg",
+          "id": "287"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/sketchstyle/train/52_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/sketchstyle/train/52_1.jpg",
+          "id": "52"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/01/sketchstyle/1__rep0__ex-34-287-52.png"
+    },
+    {
+      "category": "01",
+      "task": "sketchstyle",
+      "query_id": "146",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/sketchstyle/test/146_0.jpg",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/sketchstyle/test/146_1.jpg",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/sketchstyle/train/519_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/sketchstyle/train/519_1.jpg",
+          "id": "519"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/sketchstyle/train/247_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/sketchstyle/train/247_1.jpg",
+          "id": "247"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/sketchstyle/train/78_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/sketchstyle/train/78_1.jpg",
+          "id": "78"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/01/sketchstyle/146__rep0__ex-519-247-78.png"
+    },
+    {
+      "category": "01",
+      "task": "sketchstyle",
+      "query_id": "22",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/sketchstyle/test/22_0.jpg",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/sketchstyle/test/22_1.jpg",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/sketchstyle/train/43_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/sketchstyle/train/43_1.jpg",
+          "id": "43"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/sketchstyle/train/52_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/sketchstyle/train/52_1.jpg",
+          "id": "52"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/sketchstyle/train/519_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/sketchstyle/train/519_1.jpg",
+          "id": "519"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/01/sketchstyle/22__rep0__ex-43-52-519.png"
+    },
+    {
+      "category": "01",
+      "task": "sketchstyle",
+      "query_id": "84",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/sketchstyle/test/84_0.jpg",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/sketchstyle/test/84_1.jpg",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/sketchstyle/train/247_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/sketchstyle/train/247_1.jpg",
+          "id": "247"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/sketchstyle/train/390_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/sketchstyle/train/390_1.jpg",
+          "id": "390"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/sketchstyle/train/52_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/sketchstyle/train/52_1.jpg",
+          "id": "52"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/01/sketchstyle/84__rep0__ex-247-390-52.png"
+    },
+    {
+      "category": "01",
+      "task": "summer",
+      "query_id": "1",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/summer/test/1_0.jpg",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/summer/test/1_1.jpg",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/summer/train/241_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/summer/train/241_1.jpg",
+          "id": "241"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/summer/train/144_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/summer/train/144_1.jpg",
+          "id": "144"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/summer/train/308_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/summer/train/308_1.jpg",
+          "id": "308"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/01/summer/1__rep0__ex-241-144-308.png"
+    },
+    {
+      "category": "01",
+      "task": "summer",
+      "query_id": "2",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/summer/test/2_0.jpg",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/summer/test/2_1.jpg",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/summer/train/256_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/summer/train/256_1.jpg",
+          "id": "256"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/summer/train/308_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/summer/train/308_1.jpg",
+          "id": "308"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/summer/train/229_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/summer/train/229_1.jpg",
+          "id": "229"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/01/summer/2__rep0__ex-256-308-229.png"
+    },
+    {
+      "category": "01",
+      "task": "summer",
+      "query_id": "215",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/summer/test/215_0.jpg",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/summer/test/215_1.jpg",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/summer/train/332_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/summer/train/332_1.jpg",
+          "id": "332"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/summer/train/308_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/summer/train/308_1.jpg",
+          "id": "308"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/summer/train/241_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/summer/train/241_1.jpg",
+          "id": "241"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/01/summer/215__rep0__ex-332-308-241.png"
+    },
+    {
+      "category": "01",
+      "task": "summer",
+      "query_id": "3",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/summer/test/3_0.jpg",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/summer/test/3_1.jpg",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/summer/train/295_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/summer/train/295_1.jpg",
+          "id": "295"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/summer/train/144_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/summer/train/144_1.jpg",
+          "id": "144"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/summer/train/285_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/summer/train/285_1.jpg",
+          "id": "285"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/01/summer/3__rep0__ex-295-144-285.png"
+    },
+    {
+      "category": "01",
+      "task": "summer",
+      "query_id": "4",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/summer/test/4_0.jpg",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/summer/test/4_1.jpg",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/summer/train/256_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/summer/train/256_1.jpg",
+          "id": "256"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/summer/train/332_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/summer/train/332_1.jpg",
+          "id": "332"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/summer/train/229_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/summer/train/229_1.jpg",
+          "id": "229"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/01/summer/4__rep0__ex-256-332-229.png"
+    },
+    {
+      "category": "01",
+      "task": "wallpapersnow",
+      "query_id": "237",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/wallpapersnow/test/237_0.jpg",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/wallpapersnow/test/237_1.jpg",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/wallpapersnow/train/233_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/wallpapersnow/train/233_1.jpg",
+          "id": "233"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/wallpapersnow/train/183_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/wallpapersnow/train/183_1.jpg",
+          "id": "183"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/wallpapersnow/train/2163598603_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/wallpapersnow/train/2163598603_1.jpg",
+          "id": "2163598603"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/01/wallpapersnow/237__rep0__ex-233-183-2163598603.png"
+    },
+    {
+      "category": "01",
+      "task": "wallpapersnow",
+      "query_id": "264",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/wallpapersnow/test/264_0.jpg",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/wallpapersnow/test/264_1.jpg",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/wallpapersnow/train/183_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/wallpapersnow/train/183_1.jpg",
+          "id": "183"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/wallpapersnow/train/1561451186_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/wallpapersnow/train/1561451186_1.jpg",
+          "id": "1561451186"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/wallpapersnow/train/233_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/wallpapersnow/train/233_1.jpg",
+          "id": "233"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/01/wallpapersnow/264__rep0__ex-183-1561451186-233.png"
+    },
+    {
+      "category": "01",
+      "task": "wallpapersnow",
+      "query_id": "277",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/wallpapersnow/test/277_0.jpg",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/wallpapersnow/test/277_1.jpg",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/wallpapersnow/train/2935400115_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/wallpapersnow/train/2935400115_1.jpg",
+          "id": "2935400115"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/wallpapersnow/train/179_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/wallpapersnow/train/179_1.jpg",
+          "id": "179"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/wallpapersnow/train/507068419_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/wallpapersnow/train/507068419_1.jpg",
+          "id": "507068419"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/01/wallpapersnow/277__rep0__ex-2935400115-179-507068419.png"
+    },
+    {
+      "category": "01",
+      "task": "wallpapersnow",
+      "query_id": "3",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/wallpapersnow/test/3_0.jpg",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/wallpapersnow/test/3_1.jpg",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/wallpapersnow/train/9_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/wallpapersnow/train/9_1.jpg",
+          "id": "9"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/wallpapersnow/train/183_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/wallpapersnow/train/183_1.jpg",
+          "id": "183"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/wallpapersnow/train/507068419_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/wallpapersnow/train/507068419_1.jpg",
+          "id": "507068419"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/01/wallpapersnow/3__rep0__ex-9-183-507068419.png"
+    },
+    {
+      "category": "01",
+      "task": "wallpapersnow",
+      "query_id": "356",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/wallpapersnow/test/356_0.jpg",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/wallpapersnow/test/356_1.jpg",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/wallpapersnow/train/1561451186_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/wallpapersnow/train/1561451186_1.jpg",
+          "id": "1561451186"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/wallpapersnow/train/179_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/wallpapersnow/train/179_1.jpg",
+          "id": "179"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/wallpapersnow/train/331_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/01/wallpapersnow/train/331_1.jpg",
+          "id": "331"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/01/wallpapersnow/356__rep0__ex-1561451186-179-331.png"
+    },
+    {
+      "category": "02",
+      "task": "charcoal",
+      "query_id": "1154936755",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/charcoal/test/1154936755_0.jpg",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/charcoal/test/1154936755_1.jpg",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/charcoal/train/617838061_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/charcoal/train/617838061_1.jpg",
+          "id": "617838061"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/charcoal/train/2835650015_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/charcoal/train/2835650015_1.jpg",
+          "id": "2835650015"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/charcoal/train/3194412946_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/charcoal/train/3194412946_1.jpg",
+          "id": "3194412946"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/02/charcoal/1154936755__rep0__ex-617838061-2835650015-3194412946.png"
+    },
+    {
+      "category": "02",
+      "task": "charcoal",
+      "query_id": "1608445709",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/charcoal/test/1608445709_0.jpg",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/charcoal/test/1608445709_1.jpg",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/charcoal/train/2176760638_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/charcoal/train/2176760638_1.jpg",
+          "id": "2176760638"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/charcoal/train/3194412946_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/charcoal/train/3194412946_1.jpg",
+          "id": "3194412946"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/charcoal/train/211700149_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/charcoal/train/211700149_1.jpg",
+          "id": "211700149"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/02/charcoal/1608445709__rep0__ex-2176760638-3194412946-211700149.png"
+    },
+    {
+      "category": "02",
+      "task": "charcoal",
+      "query_id": "2226868757",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/charcoal/test/2226868757_0.jpg",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/charcoal/test/2226868757_1.jpg",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/charcoal/train/211700149_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/charcoal/train/211700149_1.jpg",
+          "id": "211700149"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/charcoal/train/617838061_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/charcoal/train/617838061_1.jpg",
+          "id": "617838061"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/charcoal/train/4277971673_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/charcoal/train/4277971673_1.jpg",
+          "id": "4277971673"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/02/charcoal/2226868757__rep0__ex-211700149-617838061-4277971673.png"
+    },
+    {
+      "category": "02",
+      "task": "charcoal",
+      "query_id": "3629391685",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/charcoal/test/3629391685_0.jpg",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/charcoal/test/3629391685_1.jpg",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/charcoal/train/2835650015_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/charcoal/train/2835650015_1.jpg",
+          "id": "2835650015"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/charcoal/train/4277971673_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/charcoal/train/4277971673_1.jpg",
+          "id": "4277971673"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/charcoal/train/2176760638_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/charcoal/train/2176760638_1.jpg",
+          "id": "2176760638"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/02/charcoal/3629391685__rep0__ex-2835650015-4277971673-2176760638.png"
+    },
+    {
+      "category": "02",
+      "task": "charcoal",
+      "query_id": "40665520",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/charcoal/test/40665520_0.jpg",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/charcoal/test/40665520_1.jpg",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/charcoal/train/3057447652_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/charcoal/train/3057447652_1.jpg",
+          "id": "3057447652"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/charcoal/train/878969425_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/charcoal/train/878969425_1.jpg",
+          "id": "878969425"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/charcoal/train/2599418953_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/charcoal/train/2599418953_1.jpg",
+          "id": "2599418953"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/02/charcoal/40665520__rep0__ex-3057447652-878969425-2599418953.png"
+    },
+    {
+      "category": "02",
+      "task": "glasses",
+      "query_id": "1048539033",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/glasses/test/1048539033_0.jpg",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/glasses/test/1048539033_1.jpg",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/glasses/train/121_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/glasses/train/121_1.jpg",
+          "id": "121"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/glasses/train/164_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/glasses/train/164_1.jpg",
+          "id": "164"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/glasses/train/358_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/glasses/train/358_1.jpg",
+          "id": "358"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/02/glasses/1048539033__rep0__ex-121-164-358.png"
+    },
+    {
+      "category": "02",
+      "task": "glasses",
+      "query_id": "246",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/glasses/test/246_0.jpg",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/glasses/test/246_1.jpg",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/glasses/train/2755394848_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/glasses/train/2755394848_1.jpg",
+          "id": "2755394848"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/glasses/train/164_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/glasses/train/164_1.jpg",
+          "id": "164"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/glasses/train/126_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/glasses/train/126_1.jpg",
+          "id": "126"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/02/glasses/246__rep0__ex-2755394848-164-126.png"
+    },
+    {
+      "category": "02",
+      "task": "glasses",
+      "query_id": "26",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/glasses/test/26_0.jpg",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/glasses/test/26_1.jpg",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/glasses/train/126_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/glasses/train/126_1.jpg",
+          "id": "126"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/glasses/train/104_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/glasses/train/104_1.jpg",
+          "id": "104"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/glasses/train/148_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/glasses/train/148_1.jpg",
+          "id": "148"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/02/glasses/26__rep0__ex-126-104-148.png"
+    },
+    {
+      "category": "02",
+      "task": "glasses",
+      "query_id": "2625750304",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/glasses/test/2625750304_0.jpg",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/glasses/test/2625750304_1.jpg",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/glasses/train/121_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/glasses/train/121_1.jpg",
+          "id": "121"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/glasses/train/126_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/glasses/train/126_1.jpg",
+          "id": "126"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/glasses/train/164_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/glasses/train/164_1.jpg",
+          "id": "164"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/02/glasses/2625750304__rep0__ex-121-126-164.png"
+    },
+    {
+      "category": "02",
+      "task": "glasses",
+      "query_id": "29063509",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/glasses/test/29063509_0.jpg",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/glasses/test/29063509_1.jpg",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/glasses/train/124_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/glasses/train/124_1.jpg",
+          "id": "124"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/glasses/train/164_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/glasses/train/164_1.jpg",
+          "id": "164"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/glasses/train/167_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/glasses/train/167_1.jpg",
+          "id": "167"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/02/glasses/29063509__rep0__ex-124-164-167.png"
+    },
+    {
+      "category": "02",
+      "task": "painting",
+      "query_id": "1",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/painting/test/1_0.jpg",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/painting/test/1_1.jpg",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/painting/train/1259957025_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/painting/train/1259957025_1.jpg",
+          "id": "1259957025"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/painting/train/146216336_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/painting/train/146216336_1.jpg",
+          "id": "146216336"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/painting/train/1996401643_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/painting/train/1996401643_1.jpg",
+          "id": "1996401643"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/02/painting/1__rep0__ex-1259957025-146216336-1996401643.png"
+    },
+    {
+      "category": "02",
+      "task": "painting",
+      "query_id": "103438249",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/painting/test/103438249_0.jpg",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/painting/test/103438249_1.jpg",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/painting/train/4068160823_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/painting/train/4068160823_1.jpg",
+          "id": "4068160823"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/painting/train/203155867_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/painting/train/203155867_1.jpg",
+          "id": "203155867"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/painting/train/1259957025_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/painting/train/1259957025_1.jpg",
+          "id": "1259957025"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/02/painting/103438249__rep0__ex-4068160823-203155867-1259957025.png"
+    },
+    {
+      "category": "02",
+      "task": "painting",
+      "query_id": "2",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/painting/test/2_0.jpg",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/painting/test/2_1.jpg",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/painting/train/3127947845_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/painting/train/3127947845_1.jpg",
+          "id": "3127947845"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/painting/train/4054338565_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/painting/train/4054338565_1.jpg",
+          "id": "4054338565"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/painting/train/3036366330_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/painting/train/3036366330_1.jpg",
+          "id": "3036366330"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/02/painting/2__rep0__ex-3127947845-4054338565-3036366330.png"
+    },
+    {
+      "category": "02",
+      "task": "painting",
+      "query_id": "3",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/painting/test/3_0.jpg",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/painting/test/3_1.jpg",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/painting/train/3127947845_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/painting/train/3127947845_1.jpg",
+          "id": "3127947845"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/painting/train/4054338565_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/painting/train/4054338565_1.jpg",
+          "id": "4054338565"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/painting/train/146216336_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/painting/train/146216336_1.jpg",
+          "id": "146216336"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/02/painting/3__rep0__ex-3127947845-4054338565-146216336.png"
+    },
+    {
+      "category": "02",
+      "task": "painting",
+      "query_id": "4",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/painting/test/4_0.jpg",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/painting/test/4_1.jpg",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/painting/train/1259957025_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/painting/train/1259957025_1.jpg",
+          "id": "1259957025"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/painting/train/146216336_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/painting/train/146216336_1.jpg",
+          "id": "146216336"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/painting/train/203155867_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/painting/train/203155867_1.jpg",
+          "id": "203155867"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/02/painting/4__rep0__ex-1259957025-146216336-203155867.png"
+    },
+    {
+      "category": "02",
+      "task": "paintingsnow",
+      "query_id": "128",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/paintingsnow/test/128_0.jpg",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/paintingsnow/test/128_1.jpg",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/paintingsnow/train/769347342_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/paintingsnow/train/769347342_1.jpg",
+          "id": "769347342"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/paintingsnow/train/2026243242_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/paintingsnow/train/2026243242_1.jpg",
+          "id": "2026243242"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/paintingsnow/train/3172303341_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/paintingsnow/train/3172303341_1.jpg",
+          "id": "3172303341"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/02/paintingsnow/128__rep0__ex-769347342-2026243242-3172303341.png"
+    },
+    {
+      "category": "02",
+      "task": "paintingsnow",
+      "query_id": "147",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/paintingsnow/test/147_0.jpg",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/paintingsnow/test/147_1.jpg",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/paintingsnow/train/2026243242_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/paintingsnow/train/2026243242_1.jpg",
+          "id": "2026243242"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/paintingsnow/train/2923148828_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/paintingsnow/train/2923148828_1.jpg",
+          "id": "2923148828"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/paintingsnow/train/769347342_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/paintingsnow/train/769347342_1.jpg",
+          "id": "769347342"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/02/paintingsnow/147__rep0__ex-2026243242-2923148828-769347342.png"
+    },
+    {
+      "category": "02",
+      "task": "paintingsnow",
+      "query_id": "302",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/paintingsnow/test/302_0.jpg",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/paintingsnow/test/302_1.jpg",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/paintingsnow/train/1909022772_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/paintingsnow/train/1909022772_1.jpg",
+          "id": "1909022772"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/paintingsnow/train/769347342_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/paintingsnow/train/769347342_1.jpg",
+          "id": "769347342"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/paintingsnow/train/263_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/paintingsnow/train/263_1.jpg",
+          "id": "263"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/02/paintingsnow/302__rep0__ex-1909022772-769347342-263.png"
+    },
+    {
+      "category": "02",
+      "task": "paintingsnow",
+      "query_id": "304",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/paintingsnow/test/304_0.jpg",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/paintingsnow/test/304_1.jpg",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/paintingsnow/train/224_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/paintingsnow/train/224_1.jpg",
+          "id": "224"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/paintingsnow/train/2026243242_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/paintingsnow/train/2026243242_1.jpg",
+          "id": "2026243242"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/paintingsnow/train/3836217107_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/paintingsnow/train/3836217107_1.jpg",
+          "id": "3836217107"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/02/paintingsnow/304__rep0__ex-224-2026243242-3836217107.png"
+    },
+    {
+      "category": "02",
+      "task": "paintingsnow",
+      "query_id": "305",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/paintingsnow/test/305_0.jpg",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/paintingsnow/test/305_1.jpg",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/paintingsnow/train/263_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/paintingsnow/train/263_1.jpg",
+          "id": "263"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/paintingsnow/train/1909022772_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/paintingsnow/train/1909022772_1.jpg",
+          "id": "1909022772"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/paintingsnow/train/74666512_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/paintingsnow/train/74666512_1.jpg",
+          "id": "74666512"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/02/paintingsnow/305__rep0__ex-263-1909022772-74666512.png"
+    },
+    {
+      "category": "02",
+      "task": "pencilsketch",
+      "query_id": "22",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/pencilsketch/test/22_0.jpg",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/pencilsketch/test/22_1.jpg",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/pencilsketch/train/873938694_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/pencilsketch/train/873938694_1.jpg",
+          "id": "873938694"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/pencilsketch/train/640378655_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/pencilsketch/train/640378655_1.jpg",
+          "id": "640378655"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/pencilsketch/train/149_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/pencilsketch/train/149_1.jpg",
+          "id": "149"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/02/pencilsketch/22__rep0__ex-873938694-640378655-149.png"
+    },
+    {
+      "category": "02",
+      "task": "pencilsketch",
+      "query_id": "3586165177",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/pencilsketch/test/3586165177_0.jpg",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/pencilsketch/test/3586165177_1.jpg",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/pencilsketch/train/345210844_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/pencilsketch/train/345210844_1.jpg",
+          "id": "345210844"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/pencilsketch/train/149_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/pencilsketch/train/149_1.jpg",
+          "id": "149"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/pencilsketch/train/2716499164_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/pencilsketch/train/2716499164_1.jpg",
+          "id": "2716499164"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/02/pencilsketch/3586165177__rep0__ex-345210844-149-2716499164.png"
+    },
+    {
+      "category": "02",
+      "task": "pencilsketch",
+      "query_id": "51",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/pencilsketch/test/51_0.jpg",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/pencilsketch/test/51_1.jpg",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/pencilsketch/train/149_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/pencilsketch/train/149_1.jpg",
+          "id": "149"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/pencilsketch/train/345210844_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/pencilsketch/train/345210844_1.jpg",
+          "id": "345210844"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/pencilsketch/train/396_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/pencilsketch/train/396_1.jpg",
+          "id": "396"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/02/pencilsketch/51__rep0__ex-149-345210844-396.png"
+    },
+    {
+      "category": "02",
+      "task": "pencilsketch",
+      "query_id": "53",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/pencilsketch/test/53_0.jpg",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/pencilsketch/test/53_1.jpg",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/pencilsketch/train/640378655_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/pencilsketch/train/640378655_1.jpg",
+          "id": "640378655"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/pencilsketch/train/1649185569_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/pencilsketch/train/1649185569_1.jpg",
+          "id": "1649185569"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/pencilsketch/train/12_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/pencilsketch/train/12_1.jpg",
+          "id": "12"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/02/pencilsketch/53__rep0__ex-640378655-1649185569-12.png"
+    },
+    {
+      "category": "02",
+      "task": "pencilsketch",
+      "query_id": "9",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/pencilsketch/test/9_0.jpg",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/pencilsketch/test/9_1.jpg",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/pencilsketch/train/873938694_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/pencilsketch/train/873938694_1.jpg",
+          "id": "873938694"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/pencilsketch/train/84_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/pencilsketch/train/84_1.jpg",
+          "id": "84"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/pencilsketch/train/12_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/pencilsketch/train/12_1.jpg",
+          "id": "12"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/02/pencilsketch/9__rep0__ex-873938694-84-12.png"
+    },
+    {
+      "category": "02",
+      "task": "purple",
+      "query_id": "1808476433",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/purple/test/1808476433_0.jpg",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/purple/test/1808476433_1.jpg",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/purple/train/25157720_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/purple/train/25157720_1.jpg",
+          "id": "25157720"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/purple/train/471700573_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/purple/train/471700573_1.jpg",
+          "id": "471700573"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/purple/train/3765311456_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/purple/train/3765311456_1.jpg",
+          "id": "3765311456"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/02/purple/1808476433__rep0__ex-25157720-471700573-3765311456.png"
+    },
+    {
+      "category": "02",
+      "task": "purple",
+      "query_id": "2431392035",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/purple/test/2431392035_0.jpg",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/purple/test/2431392035_1.jpg",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/purple/train/3765311456_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/purple/train/3765311456_1.jpg",
+          "id": "3765311456"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/purple/train/3490907340_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/purple/train/3490907340_1.jpg",
+          "id": "3490907340"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/purple/train/796932499_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/purple/train/796932499_1.jpg",
+          "id": "796932499"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/02/purple/2431392035__rep0__ex-3765311456-3490907340-796932499.png"
+    },
+    {
+      "category": "02",
+      "task": "purple",
+      "query_id": "2891646064",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/purple/test/2891646064_0.jpg",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/purple/test/2891646064_1.jpg",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/purple/train/919614963_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/purple/train/919614963_1.jpg",
+          "id": "919614963"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/purple/train/796932499_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/purple/train/796932499_1.jpg",
+          "id": "796932499"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/purple/train/4281994041_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/purple/train/4281994041_1.jpg",
+          "id": "4281994041"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/02/purple/2891646064__rep0__ex-919614963-796932499-4281994041.png"
+    },
+    {
+      "category": "02",
+      "task": "purple",
+      "query_id": "3975117843",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/purple/test/3975117843_0.jpg",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/purple/test/3975117843_1.jpg",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/purple/train/3490907340_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/purple/train/3490907340_1.jpg",
+          "id": "3490907340"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/purple/train/471700573_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/purple/train/471700573_1.jpg",
+          "id": "471700573"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/purple/train/796932499_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/purple/train/796932499_1.jpg",
+          "id": "796932499"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/02/purple/3975117843__rep0__ex-3490907340-471700573-796932499.png"
+    },
+    {
+      "category": "02",
+      "task": "snow",
+      "query_id": "0",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/snow/test/0_0.jpg",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/snow/test/0_1.jpg",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/snow/train/2697779685_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/snow/train/2697779685_1.jpg",
+          "id": "2697779685"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/snow/train/1246004019_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/snow/train/1246004019_1.jpg",
+          "id": "1246004019"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/snow/train/2307231265_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/snow/train/2307231265_1.jpg",
+          "id": "2307231265"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/02/snow/0__rep0__ex-2697779685-1246004019-2307231265.png"
+    },
+    {
+      "category": "02",
+      "task": "snow",
+      "query_id": "1",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/snow/test/1_0.jpg",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/snow/test/1_1.jpg",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/snow/train/2307231265_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/snow/train/2307231265_1.jpg",
+          "id": "2307231265"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/snow/train/3223495128_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/snow/train/3223495128_1.jpg",
+          "id": "3223495128"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/snow/train/2811632572_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/snow/train/2811632572_1.jpg",
+          "id": "2811632572"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/02/snow/1__rep0__ex-2307231265-3223495128-2811632572.png"
+    },
+    {
+      "category": "02",
+      "task": "snow",
+      "query_id": "1250251113",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/snow/test/1250251113_0.jpg",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/snow/test/1250251113_1.jpg",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/snow/train/2133092175_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/snow/train/2133092175_1.jpg",
+          "id": "2133092175"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/snow/train/596119103_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/snow/train/596119103_1.jpg",
+          "id": "596119103"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/snow/train/2307231265_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/snow/train/2307231265_1.jpg",
+          "id": "2307231265"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/02/snow/1250251113__rep0__ex-2133092175-596119103-2307231265.png"
+    },
+    {
+      "category": "02",
+      "task": "snow",
+      "query_id": "133638100",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/snow/test/133638100_0.jpg",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/snow/test/133638100_1.jpg",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/snow/train/1246004019_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/snow/train/1246004019_1.jpg",
+          "id": "1246004019"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/snow/train/596119103_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/snow/train/596119103_1.jpg",
+          "id": "596119103"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/snow/train/3926050099_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/snow/train/3926050099_1.jpg",
+          "id": "3926050099"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/02/snow/133638100__rep0__ex-1246004019-596119103-3926050099.png"
+    },
+    {
+      "category": "02",
+      "task": "snow",
+      "query_id": "3",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/snow/test/3_0.jpg",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/snow/test/3_1.jpg",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/snow/train/875258161_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/snow/train/875258161_1.jpg",
+          "id": "875258161"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/snow/train/772842410_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/snow/train/772842410_1.jpg",
+          "id": "772842410"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/snow/train/2811632572_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/snow/train/2811632572_1.jpg",
+          "id": "2811632572"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/02/snow/3__rep0__ex-875258161-772842410-2811632572.png"
+    },
+    {
+      "category": "02",
+      "task": "watercolor",
+      "query_id": "2209585996",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/watercolor/test/2209585996_0.jpg",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/watercolor/test/2209585996_1.jpg",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/watercolor/train/3054983012_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/watercolor/train/3054983012_1.jpg",
+          "id": "3054983012"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/watercolor/train/3517208757_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/watercolor/train/3517208757_1.jpg",
+          "id": "3517208757"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/watercolor/train/182_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/watercolor/train/182_1.jpg",
+          "id": "182"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/02/watercolor/2209585996__rep0__ex-3054983012-3517208757-182.png"
+    },
+    {
+      "category": "02",
+      "task": "watercolor",
+      "query_id": "408780714",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/watercolor/test/408780714_0.jpg",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/watercolor/test/408780714_1.jpg",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/watercolor/train/1489377820_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/watercolor/train/1489377820_1.jpg",
+          "id": "1489377820"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/watercolor/train/90600124_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/watercolor/train/90600124_1.jpg",
+          "id": "90600124"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/watercolor/train/1109695104_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/watercolor/train/1109695104_1.jpg",
+          "id": "1109695104"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/02/watercolor/408780714__rep0__ex-1489377820-90600124-1109695104.png"
+    },
+    {
+      "category": "02",
+      "task": "watercolor",
+      "query_id": "415236411",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/watercolor/test/415236411_0.jpg",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/watercolor/test/415236411_1.jpg",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/watercolor/train/759281447_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/watercolor/train/759281447_1.jpg",
+          "id": "759281447"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/watercolor/train/113_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/watercolor/train/113_1.jpg",
+          "id": "113"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/watercolor/train/3054983012_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/watercolor/train/3054983012_1.jpg",
+          "id": "3054983012"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/02/watercolor/415236411__rep0__ex-759281447-113-3054983012.png"
+    },
+    {
+      "category": "02",
+      "task": "watercolor",
+      "query_id": "641953815",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/watercolor/test/641953815_0.jpg",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/watercolor/test/641953815_1.jpg",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/watercolor/train/1109695104_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/watercolor/train/1109695104_1.jpg",
+          "id": "1109695104"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/watercolor/train/90600124_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/watercolor/train/90600124_1.jpg",
+          "id": "90600124"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/watercolor/train/182_0.jpg",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/02/watercolor/train/182_1.jpg",
+          "id": "182"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/02/watercolor/641953815__rep0__ex-1109695104-90600124-182.png"
+    },
+    {
+      "category": "03",
+      "task": "4dboy",
+      "query_id": "28",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/4dboy/test/28_0.png",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/4dboy/test/28_1.png",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/4dboy/train/15_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/4dboy/train/15_1.png",
+          "id": "15"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/4dboy/train/2_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/4dboy/train/2_1.png",
+          "id": "2"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/4dboy/train/33_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/4dboy/train/33_1.png",
+          "id": "33"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/03/4dboy/28__rep0__ex-15-2-33.png"
+    },
+    {
+      "category": "03",
+      "task": "4dboy",
+      "query_id": "36",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/4dboy/test/36_0.png",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/4dboy/test/36_1.png",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/4dboy/train/25_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/4dboy/train/25_1.png",
+          "id": "25"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/4dboy/train/22_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/4dboy/train/22_1.png",
+          "id": "22"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/4dboy/train/9_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/4dboy/train/9_1.png",
+          "id": "9"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/03/4dboy/36__rep0__ex-25-22-9.png"
+    },
+    {
+      "category": "03",
+      "task": "4dboy",
+      "query_id": "37",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/4dboy/test/37_0.png",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/4dboy/test/37_1.png",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/4dboy/train/9_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/4dboy/train/9_1.png",
+          "id": "9"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/4dboy/train/15_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/4dboy/train/15_1.png",
+          "id": "15"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/4dboy/train/22_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/4dboy/train/22_1.png",
+          "id": "22"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/03/4dboy/37__rep0__ex-9-15-22.png"
+    },
+    {
+      "category": "03",
+      "task": "4dboy",
+      "query_id": "39",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/4dboy/test/39_0.png",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/4dboy/test/39_1.png",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/4dboy/train/31_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/4dboy/train/31_1.png",
+          "id": "31"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/4dboy/train/9_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/4dboy/train/9_1.png",
+          "id": "9"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/4dboy/train/1_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/4dboy/train/1_1.png",
+          "id": "1"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/03/4dboy/39__rep0__ex-31-9-1.png"
+    },
+    {
+      "category": "03",
+      "task": "4dboy",
+      "query_id": "97",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/4dboy/test/97_0.png",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/4dboy/test/97_1.png",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/4dboy/train/0_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/4dboy/train/0_1.png",
+          "id": "0"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/4dboy/train/2_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/4dboy/train/2_1.png",
+          "id": "2"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/4dboy/train/25_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/4dboy/train/25_1.png",
+          "id": "25"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/03/4dboy/97__rep0__ex-0-2-25.png"
+    },
+    {
+      "category": "03",
+      "task": "apple",
+      "query_id": "10",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/apple/test/10_0.png",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/apple/test/10_1.png",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/apple/train/16_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/apple/train/16_1.png",
+          "id": "16"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/apple/train/20_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/apple/train/20_1.png",
+          "id": "20"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/apple/train/5_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/apple/train/5_1.png",
+          "id": "5"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/03/apple/10__rep0__ex-16-20-5.png"
+    },
+    {
+      "category": "03",
+      "task": "apple",
+      "query_id": "16",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/apple/test/16_0.png",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/apple/test/16_1.png",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/apple/train/42_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/apple/train/42_1.png",
+          "id": "42"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/apple/train/37_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/apple/train/37_1.png",
+          "id": "37"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/apple/train/5_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/apple/train/5_1.png",
+          "id": "5"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/03/apple/16__rep0__ex-42-37-5.png"
+    },
+    {
+      "category": "03",
+      "task": "apple",
+      "query_id": "18",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/apple/test/18_0.png",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/apple/test/18_1.png",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/apple/train/0_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/apple/train/0_1.png",
+          "id": "0"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/apple/train/37_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/apple/train/37_1.png",
+          "id": "37"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/apple/train/5_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/apple/train/5_1.png",
+          "id": "5"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/03/apple/18__rep0__ex-0-37-5.png"
+    },
+    {
+      "category": "03",
+      "task": "apple",
+      "query_id": "25",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/apple/test/25_0.png",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/apple/test/25_1.png",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/apple/train/0_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/apple/train/0_1.png",
+          "id": "0"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/apple/train/16_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/apple/train/16_1.png",
+          "id": "16"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/apple/train/42_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/apple/train/42_1.png",
+          "id": "42"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/03/apple/25__rep0__ex-0-16-42.png"
+    },
+    {
+      "category": "03",
+      "task": "apple",
+      "query_id": "4",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/apple/test/4_0.png",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/apple/test/4_1.png",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/apple/train/10_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/apple/train/10_1.png",
+          "id": "10"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/apple/train/28_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/apple/train/28_1.png",
+          "id": "28"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/apple/train/16_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/apple/train/16_1.png",
+          "id": "16"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/03/apple/4__rep0__ex-10-28-16.png"
+    },
+    {
+      "category": "03",
+      "task": "cake",
+      "query_id": "12",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/cake/test/12_0.png",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/cake/test/12_1.png",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/cake/train/6_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/cake/train/6_1.png",
+          "id": "6"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/cake/train/7_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/cake/train/7_1.png",
+          "id": "7"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/cake/train/9_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/cake/train/9_1.png",
+          "id": "9"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/03/cake/12__rep0__ex-6-7-9.png"
+    },
+    {
+      "category": "03",
+      "task": "cake",
+      "query_id": "13",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/cake/test/13_0.png",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/cake/test/13_1.png",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/cake/train/7_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/cake/train/7_1.png",
+          "id": "7"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/cake/train/1_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/cake/train/1_1.png",
+          "id": "1"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/cake/train/9_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/cake/train/9_1.png",
+          "id": "9"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/03/cake/13__rep0__ex-7-1-9.png"
+    },
+    {
+      "category": "03",
+      "task": "cake",
+      "query_id": "23",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/cake/test/23_0.png",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/cake/test/23_1.png",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/cake/train/6_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/cake/train/6_1.png",
+          "id": "6"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/cake/train/47_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/cake/train/47_1.png",
+          "id": "47"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/cake/train/39_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/cake/train/39_1.png",
+          "id": "39"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/03/cake/23__rep0__ex-6-47-39.png"
+    },
+    {
+      "category": "03",
+      "task": "cake",
+      "query_id": "25",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/cake/test/25_0.png",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/cake/test/25_1.png",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/cake/train/6_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/cake/train/6_1.png",
+          "id": "6"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/cake/train/1_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/cake/train/1_1.png",
+          "id": "1"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/cake/train/5_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/cake/train/5_1.png",
+          "id": "5"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/03/cake/25__rep0__ex-6-1-5.png"
+    },
+    {
+      "category": "03",
+      "task": "cake",
+      "query_id": "38",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/cake/test/38_0.png",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/cake/test/38_1.png",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/cake/train/3_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/cake/train/3_1.png",
+          "id": "3"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/cake/train/7_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/cake/train/7_1.png",
+          "id": "7"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/cake/train/16_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/cake/train/16_1.png",
+          "id": "16"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/03/cake/38__rep0__ex-3-7-16.png"
+    },
+    {
+      "category": "03",
+      "task": "cloud_kitty",
+      "query_id": "0",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/cloud_kitty/test/0_0.png",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/cloud_kitty/test/0_1.png",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/cloud_kitty/train/15_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/cloud_kitty/train/15_1.png",
+          "id": "15"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/cloud_kitty/train/1_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/cloud_kitty/train/1_1.png",
+          "id": "1"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/cloud_kitty/train/37_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/cloud_kitty/train/37_1.png",
+          "id": "37"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/03/cloud_kitty/0__rep0__ex-15-1-37.png"
+    },
+    {
+      "category": "03",
+      "task": "cloud_kitty",
+      "query_id": "33",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/cloud_kitty/test/33_0.png",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/cloud_kitty/test/33_1.png",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/cloud_kitty/train/37_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/cloud_kitty/train/37_1.png",
+          "id": "37"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/cloud_kitty/train/31_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/cloud_kitty/train/31_1.png",
+          "id": "31"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/cloud_kitty/train/1_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/cloud_kitty/train/1_1.png",
+          "id": "1"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/03/cloud_kitty/33__rep0__ex-37-31-1.png"
+    },
+    {
+      "category": "03",
+      "task": "cloud_kitty",
+      "query_id": "35",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/cloud_kitty/test/35_0.png",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/cloud_kitty/test/35_1.png",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/cloud_kitty/train/18_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/cloud_kitty/train/18_1.png",
+          "id": "18"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/cloud_kitty/train/1_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/cloud_kitty/train/1_1.png",
+          "id": "1"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/cloud_kitty/train/43_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/cloud_kitty/train/43_1.png",
+          "id": "43"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/03/cloud_kitty/35__rep0__ex-18-1-43.png"
+    },
+    {
+      "category": "03",
+      "task": "cloud_kitty",
+      "query_id": "39",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/cloud_kitty/test/39_0.png",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/cloud_kitty/test/39_1.png",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/cloud_kitty/train/43_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/cloud_kitty/train/43_1.png",
+          "id": "43"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/cloud_kitty/train/11_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/cloud_kitty/train/11_1.png",
+          "id": "11"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/cloud_kitty/train/18_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/cloud_kitty/train/18_1.png",
+          "id": "18"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/03/cloud_kitty/39__rep0__ex-43-11-18.png"
+    },
+    {
+      "category": "03",
+      "task": "cloud_kitty",
+      "query_id": "9",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/cloud_kitty/test/9_0.png",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/cloud_kitty/test/9_1.png",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/cloud_kitty/train/11_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/cloud_kitty/train/11_1.png",
+          "id": "11"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/cloud_kitty/train/18_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/cloud_kitty/train/18_1.png",
+          "id": "18"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/cloud_kitty/train/20_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/cloud_kitty/train/20_1.png",
+          "id": "20"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/03/cloud_kitty/9__rep0__ex-11-18-20.png"
+    },
+    {
+      "category": "03",
+      "task": "d2c",
+      "query_id": "1",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/d2c/test/1_0.png",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/d2c/test/1_1.png",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/d2c/train/14_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/d2c/train/14_1.png",
+          "id": "14"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/d2c/train/10_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/d2c/train/10_1.png",
+          "id": "10"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/d2c/train/1_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/d2c/train/1_1.png",
+          "id": "1"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/03/d2c/1__rep0__ex-14-10-1.png"
+    },
+    {
+      "category": "03",
+      "task": "d2c",
+      "query_id": "2",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/d2c/test/2_0.png",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/d2c/test/2_1.png",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/d2c/train/34_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/d2c/train/34_1.png",
+          "id": "34"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/d2c/train/32_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/d2c/train/32_1.png",
+          "id": "32"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/d2c/train/1_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/d2c/train/1_1.png",
+          "id": "1"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/03/d2c/2__rep0__ex-34-32-1.png"
+    },
+    {
+      "category": "03",
+      "task": "d2c",
+      "query_id": "23",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/d2c/test/23_0.png",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/d2c/test/23_1.png",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/d2c/train/0_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/d2c/train/0_1.png",
+          "id": "0"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/d2c/train/14_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/d2c/train/14_1.png",
+          "id": "14"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/d2c/train/34_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/d2c/train/34_1.png",
+          "id": "34"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/03/d2c/23__rep0__ex-0-14-34.png"
+    },
+    {
+      "category": "03",
+      "task": "d2c",
+      "query_id": "4",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/d2c/test/4_0.png",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/d2c/test/4_1.png",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/d2c/train/1_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/d2c/train/1_1.png",
+          "id": "1"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/d2c/train/14_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/d2c/train/14_1.png",
+          "id": "14"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/d2c/train/10_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/d2c/train/10_1.png",
+          "id": "10"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/03/d2c/4__rep0__ex-1-14-10.png"
+    },
+    {
+      "category": "03",
+      "task": "d2c",
+      "query_id": "47",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/d2c/test/47_0.png",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/d2c/test/47_1.png",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/d2c/train/6_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/d2c/train/6_1.png",
+          "id": "6"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/d2c/train/4_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/d2c/train/4_1.png",
+          "id": "4"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/d2c/train/25_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/d2c/train/25_1.png",
+          "id": "25"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/03/d2c/47__rep0__ex-6-4-25.png"
+    },
+    {
+      "category": "03",
+      "task": "juice",
+      "query_id": "13",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/juice/test/13_0.png",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/juice/test/13_1.png",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/juice/train/18_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/juice/train/18_1.png",
+          "id": "18"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/juice/train/20_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/juice/train/20_1.png",
+          "id": "20"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/juice/train/33_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/juice/train/33_1.png",
+          "id": "33"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/03/juice/13__rep0__ex-18-20-33.png"
+    },
+    {
+      "category": "03",
+      "task": "juice",
+      "query_id": "15",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/juice/test/15_0.png",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/juice/test/15_1.png",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/juice/train/11_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/juice/train/11_1.png",
+          "id": "11"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/juice/train/8_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/juice/train/8_1.png",
+          "id": "8"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/juice/train/7_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/juice/train/7_1.png",
+          "id": "7"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/03/juice/15__rep0__ex-11-8-7.png"
+    },
+    {
+      "category": "03",
+      "task": "juice",
+      "query_id": "29",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/juice/test/29_0.png",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/juice/test/29_1.png",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/juice/train/32_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/juice/train/32_1.png",
+          "id": "32"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/juice/train/33_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/juice/train/33_1.png",
+          "id": "33"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/juice/train/34_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/juice/train/34_1.png",
+          "id": "34"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/03/juice/29__rep0__ex-32-33-34.png"
+    },
+    {
+      "category": "03",
+      "task": "juice",
+      "query_id": "44",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/juice/test/44_0.png",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/juice/test/44_1.png",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/juice/train/34_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/juice/train/34_1.png",
+          "id": "34"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/juice/train/11_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/juice/train/11_1.png",
+          "id": "11"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/juice/train/44_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/juice/train/44_1.png",
+          "id": "44"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/03/juice/44__rep0__ex-34-11-44.png"
+    },
+    {
+      "category": "03",
+      "task": "juice",
+      "query_id": "6",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/juice/test/6_0.png",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/juice/test/6_1.png",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/juice/train/44_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/juice/train/44_1.png",
+          "id": "44"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/juice/train/37_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/juice/train/37_1.png",
+          "id": "37"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/juice/train/34_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/juice/train/34_1.png",
+          "id": "34"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/03/juice/6__rep0__ex-44-37-34.png"
+    },
+    {
+      "category": "03",
+      "task": "lava",
+      "query_id": "122",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/lava/test/122_0.png",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/lava/test/122_1.png",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/lava/train/43_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/lava/train/43_1.png",
+          "id": "43"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/lava/train/15_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/lava/train/15_1.png",
+          "id": "15"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/lava/train/18_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/lava/train/18_1.png",
+          "id": "18"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/03/lava/122__rep0__ex-43-15-18.png"
+    },
+    {
+      "category": "03",
+      "task": "lava",
+      "query_id": "198",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/lava/test/198_0.png",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/lava/test/198_1.png",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/lava/train/29_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/lava/train/29_1.png",
+          "id": "29"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/lava/train/20_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/lava/train/20_1.png",
+          "id": "20"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/lava/train/0_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/lava/train/0_1.png",
+          "id": "0"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/03/lava/198__rep0__ex-29-20-0.png"
+    },
+    {
+      "category": "03",
+      "task": "lava",
+      "query_id": "45",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/lava/test/45_0.png",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/lava/test/45_1.png",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/lava/train/15_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/lava/train/15_1.png",
+          "id": "15"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/lava/train/49_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/lava/train/49_1.png",
+          "id": "49"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/lava/train/20_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/lava/train/20_1.png",
+          "id": "20"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/03/lava/45__rep0__ex-15-49-20.png"
+    },
+    {
+      "category": "03",
+      "task": "lava",
+      "query_id": "5",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/lava/test/5_0.png",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/lava/test/5_1.png",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/lava/train/25_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/lava/train/25_1.png",
+          "id": "25"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/lava/train/49_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/lava/train/49_1.png",
+          "id": "49"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/lava/train/43_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/lava/train/43_1.png",
+          "id": "43"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/03/lava/5__rep0__ex-25-49-43.png"
+    },
+    {
+      "category": "03",
+      "task": "lava",
+      "query_id": "53",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/lava/test/53_0.png",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/lava/test/53_1.png",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/lava/train/12_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/lava/train/12_1.png",
+          "id": "12"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/lava/train/25_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/lava/train/25_1.png",
+          "id": "25"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/lava/train/0_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/lava/train/0_1.png",
+          "id": "0"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/03/lava/53__rep0__ex-12-25-0.png"
+    },
+    {
+      "category": "03",
+      "task": "rain",
+      "query_id": "128",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/rain/test/128_0.png",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/rain/test/128_1.png",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/rain/train/0_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/rain/train/0_1.png",
+          "id": "0"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/rain/train/23_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/rain/train/23_1.png",
+          "id": "23"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/rain/train/13_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/rain/train/13_1.png",
+          "id": "13"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/03/rain/128__rep0__ex-0-23-13.png"
+    },
+    {
+      "category": "03",
+      "task": "rain",
+      "query_id": "188",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/rain/test/188_0.png",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/rain/test/188_1.png",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/rain/train/13_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/rain/train/13_1.png",
+          "id": "13"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/rain/train/23_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/rain/train/23_1.png",
+          "id": "23"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/rain/train/27_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/rain/train/27_1.png",
+          "id": "27"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/03/rain/188__rep0__ex-13-23-27.png"
+    },
+    {
+      "category": "03",
+      "task": "rain",
+      "query_id": "196",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/rain/test/196_0.png",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/rain/test/196_1.png",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/rain/train/3_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/rain/train/3_1.png",
+          "id": "3"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/rain/train/31_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/rain/train/31_1.png",
+          "id": "31"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/rain/train/13_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/rain/train/13_1.png",
+          "id": "13"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/03/rain/196__rep0__ex-3-31-13.png"
+    },
+    {
+      "category": "03",
+      "task": "rain",
+      "query_id": "65",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/rain/test/65_0.png",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/rain/test/65_1.png",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/rain/train/23_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/rain/train/23_1.png",
+          "id": "23"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/rain/train/10_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/rain/train/10_1.png",
+          "id": "10"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/rain/train/30_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/rain/train/30_1.png",
+          "id": "30"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/03/rain/65__rep0__ex-23-10-30.png"
+    },
+    {
+      "category": "03",
+      "task": "rain",
+      "query_id": "91",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/rain/test/91_0.png",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/rain/test/91_1.png",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/rain/train/18_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/rain/train/18_1.png",
+          "id": "18"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/rain/train/0_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/rain/train/0_1.png",
+          "id": "0"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/rain/train/23_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/rain/train/23_1.png",
+          "id": "23"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/03/rain/91__rep0__ex-18-0-23.png"
+    },
+    {
+      "category": "03",
+      "task": "read_books",
+      "query_id": "6",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/read_books/test/6_0.png",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/read_books/test/6_1.png",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/read_books/train/11_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/read_books/train/11_1.png",
+          "id": "11"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/read_books/train/6_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/read_books/train/6_1.png",
+          "id": "6"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/read_books/train/10_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/read_books/train/10_1.png",
+          "id": "10"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/03/read_books/6__rep0__ex-11-6-10.png"
+    },
+    {
+      "category": "03",
+      "task": "read_books",
+      "query_id": "81",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/read_books/test/81_0.png",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/read_books/test/81_1.png",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/read_books/train/43_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/read_books/train/43_1.png",
+          "id": "43"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/read_books/train/48_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/read_books/train/48_1.png",
+          "id": "48"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/read_books/train/47_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/read_books/train/47_1.png",
+          "id": "47"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/03/read_books/81__rep0__ex-43-48-47.png"
+    },
+    {
+      "category": "03",
+      "task": "read_books",
+      "query_id": "83",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/read_books/test/83_0.png",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/read_books/test/83_1.png",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/read_books/train/43_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/read_books/train/43_1.png",
+          "id": "43"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/read_books/train/48_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/read_books/train/48_1.png",
+          "id": "48"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/read_books/train/10_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/read_books/train/10_1.png",
+          "id": "10"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/03/read_books/83__rep0__ex-43-48-10.png"
+    },
+    {
+      "category": "03",
+      "task": "read_books",
+      "query_id": "89",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/read_books/test/89_0.png",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/read_books/test/89_1.png",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/read_books/train/10_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/read_books/train/10_1.png",
+          "id": "10"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/read_books/train/6_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/read_books/train/6_1.png",
+          "id": "6"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/read_books/train/5_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/read_books/train/5_1.png",
+          "id": "5"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/03/read_books/89__rep0__ex-10-6-5.png"
+    },
+    {
+      "category": "03",
+      "task": "read_books",
+      "query_id": "98",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/read_books/test/98_0.png",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/read_books/test/98_1.png",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/read_books/train/5_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/read_books/train/5_1.png",
+          "id": "5"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/read_books/train/47_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/read_books/train/47_1.png",
+          "id": "47"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/read_books/train/6_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/read_books/train/6_1.png",
+          "id": "6"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/03/read_books/98__rep0__ex-5-47-6.png"
+    },
+    {
+      "category": "03",
+      "task": "smile",
+      "query_id": "1",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/smile/test/1_0.png",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/smile/test/1_1.png",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/smile/train/10_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/smile/train/10_1.png",
+          "id": "10"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/smile/train/47_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/smile/train/47_1.png",
+          "id": "47"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/smile/train/8_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/smile/train/8_1.png",
+          "id": "8"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/03/smile/1__rep0__ex-10-47-8.png"
+    },
+    {
+      "category": "03",
+      "task": "smile",
+      "query_id": "17",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/smile/test/17_0.png",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/smile/test/17_1.png",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/smile/train/47_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/smile/train/47_1.png",
+          "id": "47"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/smile/train/46_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/smile/train/46_1.png",
+          "id": "46"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/smile/train/1_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/smile/train/1_1.png",
+          "id": "1"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/03/smile/17__rep0__ex-47-46-1.png"
+    },
+    {
+      "category": "03",
+      "task": "smile",
+      "query_id": "2",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/smile/test/2_0.png",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/smile/test/2_1.png",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/smile/train/36_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/smile/train/36_1.png",
+          "id": "36"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/smile/train/4_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/smile/train/4_1.png",
+          "id": "4"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/smile/train/14_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/smile/train/14_1.png",
+          "id": "14"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/03/smile/2__rep0__ex-36-4-14.png"
+    },
+    {
+      "category": "03",
+      "task": "smile",
+      "query_id": "36",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/smile/test/36_0.png",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/smile/test/36_1.png",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/smile/train/14_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/smile/train/14_1.png",
+          "id": "14"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/smile/train/46_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/smile/train/46_1.png",
+          "id": "46"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/smile/train/10_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/smile/train/10_1.png",
+          "id": "10"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/03/smile/36__rep0__ex-14-46-10.png"
+    },
+    {
+      "category": "03",
+      "task": "smile",
+      "query_id": "8",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/smile/test/8_0.png",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/smile/test/8_1.png",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/smile/train/10_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/smile/train/10_1.png",
+          "id": "10"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/smile/train/8_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/smile/train/8_1.png",
+          "id": "8"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/smile/train/16_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/smile/train/16_1.png",
+          "id": "16"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/03/smile/8__rep0__ex-10-8-16.png"
+    },
+    {
+      "category": "03",
+      "task": "traffic_lights",
+      "query_id": "0",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/traffic_lights/test/0_0.png",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/traffic_lights/test/0_1.png",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/traffic_lights/train/3_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/traffic_lights/train/3_1.png",
+          "id": "3"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/traffic_lights/train/0_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/traffic_lights/train/0_1.png",
+          "id": "0"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/traffic_lights/train/6_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/traffic_lights/train/6_1.png",
+          "id": "6"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/03/traffic_lights/0__rep0__ex-3-0-6.png"
+    },
+    {
+      "category": "03",
+      "task": "traffic_lights",
+      "query_id": "1",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/traffic_lights/test/1_0.png",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/traffic_lights/test/1_1.png",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/traffic_lights/train/0_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/traffic_lights/train/0_1.png",
+          "id": "0"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/traffic_lights/train/1_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/traffic_lights/train/1_1.png",
+          "id": "1"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/traffic_lights/train/6_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/traffic_lights/train/6_1.png",
+          "id": "6"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/03/traffic_lights/1__rep0__ex-0-1-6.png"
+    },
+    {
+      "category": "03",
+      "task": "traffic_lights",
+      "query_id": "2",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/traffic_lights/test/2_0.png",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/traffic_lights/test/2_1.png",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/traffic_lights/train/8_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/traffic_lights/train/8_1.png",
+          "id": "8"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/traffic_lights/train/9_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/traffic_lights/train/9_1.png",
+          "id": "9"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/traffic_lights/train/4_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/traffic_lights/train/4_1.png",
+          "id": "4"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/03/traffic_lights/2__rep0__ex-8-9-4.png"
+    },
+    {
+      "category": "03",
+      "task": "traffic_lights",
+      "query_id": "3",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/traffic_lights/test/3_0.png",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/traffic_lights/test/3_1.png",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/traffic_lights/train/7_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/traffic_lights/train/7_1.png",
+          "id": "7"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/traffic_lights/train/9_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/traffic_lights/train/9_1.png",
+          "id": "9"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/traffic_lights/train/3_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/traffic_lights/train/3_1.png",
+          "id": "3"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/03/traffic_lights/3__rep0__ex-7-9-3.png"
+    },
+    {
+      "category": "03",
+      "task": "traffic_lights",
+      "query_id": "4",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/traffic_lights/test/4_0.png",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/traffic_lights/test/4_1.png",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/traffic_lights/train/6_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/traffic_lights/train/6_1.png",
+          "id": "6"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/traffic_lights/train/1_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/traffic_lights/train/1_1.png",
+          "id": "1"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/traffic_lights/train/5_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/traffic_lights/train/5_1.png",
+          "id": "5"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/03/traffic_lights/4__rep0__ex-6-1-5.png"
+    },
+    {
+      "category": "03",
+      "task": "traffic_lights",
+      "query_id": "5",
+      "query_src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/traffic_lights/test/5_0.png",
+      "query_gt_edit": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/traffic_lights/test/5_1.png",
+      "exemplars": [
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/traffic_lights/train/3_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/traffic_lights/train/3_1.png",
+          "id": "3"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/traffic_lights/train/4_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/traffic_lights/train/4_1.png",
+          "id": "4"
+        },
+        {
+          "src": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/traffic_lights/train/2_0.png",
+          "ed": "/root/e_mmdit/flash-attention/Nitro-E-main/benchmark/03/traffic_lights/train/2_1.png",
+          "id": "2"
+        }
+      ],
+      "replicate": 0,
+      "output": ".../output/topbench/ip2p/03/traffic_lights/5__rep0__ex-3-4-2.png"
+    }
+  ]
+}
