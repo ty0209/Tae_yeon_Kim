@@ -1,0 +1,34 @@
+{
+    "_meta": {
+        "description": "Per-task text instructions for the EditCLIP benchmark, used by the Llama-based method and for CLIP Score evaluation of BOTH methods. Each entry has source_prompt (input description), target_prompt (after-edit description), and clip_prompt (the prompt used for CLIP Score; defaults to target_prompt if absent).",
+        "schema": "task_id (CATEGORY/TASKNAME) -> {source_prompt, target_prompt, clip_prompt?}"
+    },
+
+    "01/boy2girl":     {"source_prompt": "a photo of a boy",                "target_prompt": "a photo of a girl"},
+    "01/midnight":     {"source_prompt": "a photo in daylight",             "target_prompt": "a photo at midnight"},
+    "01/seapainting":  {"source_prompt": "a photograph of the sea",         "target_prompt": "an oil painting of the sea"},
+    "01/sketchstyle":  {"source_prompt": "a photograph",                    "target_prompt": "a pencil sketch"},
+    "01/summer":       {"source_prompt": "a winter scene",                  "target_prompt": "a summer scene"},
+    "01/wallpapersnow":{"source_prompt": "a wallpaper image",               "target_prompt": "a snowy wallpaper image"},
+
+    "02/charcoal":     {"source_prompt": "a photograph",                    "target_prompt": "a charcoal drawing"},
+    "02/glasses":      {"source_prompt": "a photo of a person",             "target_prompt": "a photo of a person wearing glasses"},
+    "02/painting":     {"source_prompt": "a photograph",                    "target_prompt": "an oil painting"},
+    "02/paintingsnow": {"source_prompt": "an oil painting",                 "target_prompt": "an oil painting with snow"},
+    "02/pencilsketch": {"source_prompt": "a photograph",                    "target_prompt": "a pencil sketch"},
+    "02/purple":       {"source_prompt": "a photograph",                    "target_prompt": "a photograph in purple tones"},
+    "02/snow":         {"source_prompt": "a photograph",                    "target_prompt": "a photograph covered in snow"},
+    "02/watercolor":   {"source_prompt": "a photograph",                    "target_prompt": "a watercolor painting"},
+
+    "03/4dboy":        {"source_prompt": "a photo of a boy",                "target_prompt": "a 3d-rendered cartoon boy"},
+    "03/apple":        {"source_prompt": "a photograph",                    "target_prompt": "a photograph with an apple added"},
+    "03/cake":         {"source_prompt": "a photograph",                    "target_prompt": "a photograph with a cake"},
+    "03/cloud_kitty":  {"source_prompt": "a photo of clouds",               "target_prompt": "a photo of cloud-shaped kittens"},
+    "03/d2c":          {"source_prompt": "a photo of a dog",                "target_prompt": "a photo of a cat"},
+    "03/juice":        {"source_prompt": "a photograph",                    "target_prompt": "a photograph with a glass of juice"},
+    "03/lava":         {"source_prompt": "a photograph",                    "target_prompt": "a photograph with lava"},
+    "03/rain":         {"source_prompt": "a photograph",                    "target_prompt": "a photograph in heavy rain"},
+    "03/read_books":   {"source_prompt": "a photo of a person",             "target_prompt": "a photo of a person reading a book"},
+    "03/smile":        {"source_prompt": "a photo of a person",             "target_prompt": "a photo of a smiling person"},
+    "03/traffic_lights":{"source_prompt": "a street photograph",            "target_prompt": "a street photograph with traffic lights"}
+}
